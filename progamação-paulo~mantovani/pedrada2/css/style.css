@@ -1,0 +1,108 @@
+*{margin: 0;
+padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+header{
+    background-image: url("/img/Logo.png");
+    background-color:#454139;
+    background-repeat: no-repeat;
+  padding: 16px; 
+   
+}
+.criarconta{
+
+    background-color:#218838;
+    float: right;
+    color: rgb(229, 235, 229);
+    padding: 9pt;
+    border: solid;
+    border-color: #218838;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 19px;
+    margin-right: 31px;
+    
+}
+.title{
+    color: rgb(7, 6, 6);
+    padding: 37px;
+    font-size: 26px;}
+
+
+
+.container{
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 150px;
+}
+
+
+  section{
+   
+      background-image: url("/img/pizza.jpg");
+    
+      background-size: cover;
+      overflow: hidden;
+
+      
+           
+  }
+
+    .formContainer{
+        max-width :220px;
+        max-height: 260px;
+        padding: 45px;
+        top: 90px;
+        border: 1px solid;
+        border-radius: 4px; 
+        margin: auto;
+        overflow: hidden;
+        background-color: rgba(33, 33, 33, 0.79);
+        background-blend-mode: normal;
+        position: relative;
+           
+    }
+    input{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 17px;
+        border:none;
+        margin-bottom: 3px;
+        border-radius: 20px;
+    }
+
+    .entrar{
+        background-color: rgb(36, 96, 208);
+        color: white;
+        padding: 22px;
+    }
+
+   .nome, .senha {background-color: rgba(58, 58, 58, 0.79) ;
+    padding: 12px;
+    opacity: 79%;
+    color: white;
+
+
+    }
+
+    footer{
+        background-color: black;
+        color: blanchedalmond;
+        padding-bottom: 30px;
+        position: sticky;
+    }
+
+    h3{
+        float: right;
+        
+    }
+.p1{
+    text-align: justify;
+    line-break: auto;
+    word-spacing: 2px;
+}
