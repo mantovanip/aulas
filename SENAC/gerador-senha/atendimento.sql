@@ -1,0 +1,6 @@
+CREATE TABLE atendimento (
+	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(200) NOT NULL,
+    cpf CHAR(14),
+    senha INT
+) ENGINE = InnoDB;
