@@ -1,0 +1,7 @@
+{
+  "name": "password-manager",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

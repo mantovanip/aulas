@@ -1,0 +1,51 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-list>
+      <ion-item>
+        <ion-label position="stacked">Site</ion-label>
+        <ion-input 
+          placeholder="http://site.com" 
+          [(ngModel)]="_credencial.site"
+        ></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked">Login</ion-label>
+        <ion-input 
+          placeholder="User name"
+          [(ngModel)]="_credencial.login"
+        ></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked">Senha</ion-label>
+        <ion-input 
+          type="password"
+          [(ngModel)]="_credencial.senha"
+        ></ion-input>
+      </ion-item>
+    </ion-list>    
+    <ion-button 
+      expand="block"
+      (click)="armazenar()"
+    >Armazenar</ion-button>
+    
+    <ion-button
+      expand="block"
+      (click)="limpar()"
+      color="danger"
+    >Limpar</ion-button>
+  </div>
+</ion-content>
